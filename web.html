@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Vivian Zhao eportfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    margin: 30px;
+  }
+}
+
+.media {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing:1px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px){
+  .responsive {width: 50%;
+    margin: 10px 0;}
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+    > * {
+      margin: 15px;
+    }
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11%;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Header -->
+ <h2 style="padding: 231px"> </h2>
+
+<header class="w3-display-container w3-content w3-center" style="height:400px; max-width:1500px ">
+  <img class="w3-image" src="C:\Users\vivia\OneDrive\Desktop\eportfolio//banner2.jpg" alt="Me" width="1500" height="400">
+  <div class="w3-display-middle w3-padding-large w3-border w3-border-white w3-hover-border-yellow w3-wide w3-text-black w3-center " id="Home">
+    <h1 class="w3-hide-medium w3-hide-small w3-text-black w3-xxxlarge">VIVIAN ZHAO</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">VIVIAN ZHAO</h5>
+    <h3 class="w3-hide-medium w3-hide-small">ART GALLERY</h3>
+  </div>
+
+    <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-black w3-round w3-display-bottommiddle w3-hide-small w3-text-white" style="bottom:-16px">
+ 
+    <a href="C:\Users\vivia\OneDrive\Desktop\eportfolio2//index.html" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#artist" class="w3-bar-item w3-button">Artist Statment</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Page content -->
+
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+ 
+
+<!--title-->
+<h4>
+  <div style="content: center">
+<p style="font-size: 35px;">Glitch</p>
+</div>
+</h4> 
+  
+  <!-- Images (Portfolio) -->
+
+  <div class="wrapper">
+    <h2 style="padding: 0px"> </h2>
+
+     <div>
+    <div class="media">
+      <div class="center"></div>
+      <div class="layer">
+      </div> 
+          <a href="glitch1.html">
+      <img src="glitch1.jpg"; alt="graphic"/>
+       <p>S u n s e t </p>  
+ </a>
+    </div>
+
+    <div class="media">
+      <div class="center"></div>
+      <div class="layer">
+          <a href="glitch2.html">
+      </div>
+      <img src="glitch2.jpg" alt="glitch" />
+      <p>W a v e s</p>
+    </a>
+    </div>
+
+ </div>
+
+<div>
+    <div class="media">
+      <div class="center"></div>
+      <div class="layer">
+           <a href="glitch3.html">
+      </div>
+      <img src="glitch33.png"  alt="web" /> 
+      <p>B u i l d</p> 
+    </a>
+    </div>
+
+  
+    <div class="media">
+      <div class="center"></div>
+      <div class="layer">
+           <a href="glitch4.html">
+      </div>
+      <img src="glitch44.png"  alt="animation" />
+      <p>H u h?</p> 
+    </a>
+    </div>
+
+</div>
+
+
+<div>
+ <h2 style="padding: 30px"> </h2>
+</div>
+
+
+<div class="clearfix"></div>
+
+
+
+
+<!-- End page content -->
+</div>
+
+<div>
+  <a href="digital.html"><img src="backbutton.png" width="100"class="center"></a>
+</div>
+
+
+</body>
+</html>

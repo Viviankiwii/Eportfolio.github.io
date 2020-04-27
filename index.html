@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Vivian Zhao eportfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    margin: 5px;
+  }
+}
+
+.media {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing:1px;
+}
+
+.media:hover .layer {
+  opacity: 0.8;
+  width: 60%;
+  height: 20%;
+  transition: all 0.5s ease;
+  p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px){
+  .responsive {width: 50%;
+    margin: 10px 0;}
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+    > * {
+      margin: 15px;
+    }
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Header -->
+ <h2 style="padding: 460px"> </h2>
+
+<header class="w3-display-container w3-content w3-center" style="height:400px; max-width:1500px ">
+  <img class="w3-image" src="C:\Users\vivia\OneDrive\Desktop\eportfolio//banner2.jpg" alt="Me" width="1500" height="400">
+  <div class="w3-display-middle w3-padding-large w3-border w3-border-white w3-hover-border-yellow w3-wide w3-text-black w3-center " id="portfolio">
+    <h1 class="w3-hide-medium w3-hide-small w3-text-black w3-xxxlarge">VIVIAN ZHAO</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">VIVIAN ZHAO</h5>
+    <h3 class="w3-hide-medium w3-hide-small">ART GALLERY</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-black w3-round w3-display-bottommiddle w3-hide-small w3-text-white" style="bottom:-16px">
+    <a href="index.html#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#artist" class="w3-bar-item w3-button">Artist Statment</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+ <h2 style="padding: 10px"> </h2>
+  
+  <!-- Images (Portfolio) -->
+
+  <div class="wrapper">
+
+    <div class="media">
+      <div class="layer">
+          <p>D i g i t a l</p>  
+      </div> 
+          <a href="C:\Users\vivia\OneDrive\Desktop\eportfolio2//digital.html">
+      <img src="C:\Users\vivia\OneDrive\Desktop\eportfolio2//red1.jpg"; alt="digital"/>
+ </a>
+    </div>
+
+    <div class="media">
+      <div class="layer">
+          <p>D r a w i n g</p>
+          </div>
+          <a href="C:\Users\vivia\OneDrive\Desktop\eportfolio2//drawing.html">
+      <img src="C:\Users\vivia\OneDrive\Desktop\eportfolio2//orange1.jpg" alt="drawing" />
+    </a>
+    </div>
+
+    <div class="media">
+      <div class="layer">
+          <p>P a i n t s</p>
+        </div>
+           <a href="C:\Users\vivia\OneDrive\Desktop\eportfolio2//painting.html">
+      <img src="C:\Users\vivia\OneDrive\Desktop\eportfolio2//yellow1.jpg"  alt="painting" />
+      </a>
+    </div>
+
+    <div class="media">
+      <div class="layer">
+          <p>F u t u r e</p>
+           <a href="others.html">
+      </div>
+      <img src="C:\Users\vivia\OneDrive\Desktop\eportfolio2//green1.jpg"  alt="ceramic" />
+      </a>
+    </div>
+
+
+  </div>
+
+
+<div class="clearfix"></div>
+
+ <h2 style="padding: 3px"> </h2>
+
+<!--artist statement-->
+<div class="w3-content w3-padding-large w3-margin-top" id="artist">
+
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="artist">
+    <h3 class="w3-center">Artist Statement</h3>
+<div style="padding:6px;">
+  <p> My name is Vivian Zhao. I am currently a preperation for teaching arts major. I first started art when I was around 6 years old. Ever since then, I've been taking art classes and practicing on my own. I like challenging myself to all types of mediums which is why I have quite a variety to my artworks.</p>
+</div>
+</div>
+
+
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top " id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p> For business aquires, please fill out this section. You can also follow me @Kiwikawii on instagram.</p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    
+
+<!-- End page content -->
+</div>
+
+<h2 style="padding: 10px"> </h2>
+
+</body>
+</html>
