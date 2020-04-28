@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Vivian Zhao eportfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: pink;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    margin: 30px;
+  }
+}
+
+.media {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px){
+  .responsive {width: 50%;
+    margin: 10px 0;}
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+    > * {
+      margin: 15px;
+    }
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Header -->
+ <h2 style="padding: 433px"> </h2>
+
+<header class="w3-display-container w3-content w3-center" style="height:400px; max-width:1500px ">
+  <img class="w3-image" src="C:\Users\vivia\OneDrive\Desktop\eportfolio//banner2.jpg" alt="Me" width="1500" height="400">
+  <div class="w3-display-middle w3-padding-large w3-border w3-border-white w3-hover-border-yellow w3-wide w3-text-black w3-center " id="Home">
+    <h1 class="w3-hide-medium w3-hide-small w3-text-black w3-xxxlarge">VIVIAN ZHAO</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">VIVIAN ZHAO</h5>
+    <h3 class="w3-hide-medium w3-hide-small">ART GALLERY</h3>
+  </div>
+
+<!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-black w3-round w3-display-bottommiddle w3-hide-small w3-text-white" style="bottom:-16px">
+ 
+    <a href="index.html#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="index.html#artist" class="w3-bar-item w3-button">Artist Statment</a>
+    <a href="index.html#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+
+<!-- Images (Portfolio) --> 
+<h2 style="padding: 10px"> </h2>
+
+<p align="center"> 
+  <img src="drawing1.jpg" alt="Ocean" class="w3-image" width="500" height="500">
+</p>
+
+  </div>
+
+
+<div>
+
+<center>
+  <p align="center">  
+   <div class="w3-light-gray w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+     <h2 class="w3-center"> Smiling Man</h2>
+    <h4 class="w3-center"> 3.21.2015</h4>
+    <h4 class="w3-center">Color Pencil</h4>
+<p> A practice study using color pencils.
+</p>
+
+
+</div>
+
+<h2 style="padding: 5px"> </h2>
+
+<!-- End page content -->
+</div>
+
+<div>
+  <a href="pencil.html"><img src="backbutton.png" width="100"class="center"></a>
+</div>
+
+<h2 style="padding: 5px"> </h2>
+
+</body>
+</html>
